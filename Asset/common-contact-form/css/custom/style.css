@@ -1,0 +1,344 @@
+/*============================================== 13.CONTACT AREA START ==============================================*/
+
+.form-control-text {
+    border: 1px solid #999999 !important;
+    border: none;
+    height: 60px;
+    padding: 15px 20px;
+    min-height: 80px;
+    width: 100%;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+.contact-btn-mar {
+    display: table;
+    margin-right: 20px;
+}
+
+.form-box {
+    background-color: #eeeeee;
+    padding: 30px;
+    border-top: 5px solid #76448E;
+}
+
+.contact-address {
+    background-color: #eeeeee;
+    padding: 50px;
+    border-top: 5px solid #76448E;
+}
+
+
+/*============================================== 13.CONTACT AREA END ==============================================*/
+
+
+/*========================================= 14.FOOTER AREA START ==================================*/
+
+.footer-bg-color.section-space {
+    padding: 50px 0px;
+}
+
+.footer-bg-color {
+    background-color: #222222;
+}
+
+.footer-li-space {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.footer-li-space:last-child {
+    padding-bottom: 0px;
+}
+
+.footer-li-space:first-child {
+    padding-top: 0px;
+}
+
+.footer-list-name {
+    letter-spacing: 1px;
+    word-break: break-all;
+    color: #666666;
+}
+
+.copy-right {
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.copyright-bg-color {
+    border-top: 1px solid;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.mar-top {
+    margin-top: 5px;
+}
+
+
+/*============================================= 14.FOOTER AREA END =====================================*/
+
+
+/*=============================================  15.MEDIA  QUERIES AREA START ============================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-style {
+        padding: 36px 10px !important;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h5 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .header-bg-img {
+        padding: 120px 0px 120px 0px;
+    }
+    .pre-navbar .float-left,
+    .pre-navbar .float-right {
+        float: none !important;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    h3 {
+        font-size: 29px;
+        line-height: 39px;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h5 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    h6 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .section-space {
+        padding: 65px 0px 65px 0px;
+    }
+    .header-bg-img {
+        padding: 100px 0px 100px 0px;
+    }
+    .pre-navbar .float-left .padding-right {
+        padding-right: 25px !important;
+    }
+    .pre-navbar .float-left,
+    .pre-navbar .float-right {
+        float: none !important;
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+    .content-width {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 575px) {
+    .card-overlay {
+        padding: 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mar-auto {
+        margin: 0 auto;
+    }
+    .btn-wrapper {
+        margin-top: 20px;
+    }
+    .no-padding {
+        padding: 10px 15px;
+    }
+    .navbar-light .navbar-toggler {
+        display: table;
+        margin: 0 auto;
+    }
+    .content-style {
+        padding: 10px 0px;
+    }
+    .res-text-center {
+        text-align: center;
+    }
+    .navbar-nav-btn,
+    .nav-style {
+        padding: 10px 0px !important;
+    }
+    .navbar-nav {
+        float: left !important;
+    }
+    .res-desk-mar-bot {
+        margin-bottom: 30px;
+    }
+    .res-desk-pad-bot {
+        padding-bottom: 30px;
+    }
+    .section-width {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .navbar-collapse {
+        max-height: 180px;
+        overflow: auto;
+        width: 100%;
+    }
+    .cta .text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    .service .owl-buttons {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .res-tab-mar-bot {
+        margin-bottom: 30px;
+    }
+    .boxed-btn {
+        font-size: 14px;
+    }
+    .pre-nav-border-right {
+        border: none;
+    }
+    .res-disp.display-table-cell {
+        display: inherit;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section-space {
+        padding: 50px 0px 50px 0px;
+    }
+    .section-margin-bottom {
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h4 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    h5 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .header-bg-img {
+        padding: 80px 0px 80px 0px;
+    }
+    .intro-content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .res-mob-2-mar-bot {
+        margin-bottom: 30px;
+    }
+    .pre-navbar .float-right .padding-right {
+        padding-right: 30px !important;
+    }
+    .pre-navbar .float-left .padding-right {
+        padding-right: 0px !important;
+        padding-bottom: 15px !important;
+    }
+    .pre-navbar .float-left .navbar-nav-pad.display-table-cell {
+        display: inherit;
+    }
+    .pre-navbar .float-left,
+    .pre-navbar .float-right {
+        float: none !important;
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .res-mob-mar-bot {
+        margin-bottom: 30px;
+    }
+    .copyright-bg-color .float-left {
+        float: none !important;
+        display: table;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .copyright-bg-color .float-right {
+        float: none !important;
+    }
+}
+
+
+/* SAFARI MENU ISSUES*/
+
+@media only screen and (min-width: 992px) {
+    /*safari Browser*/
+    .navbar-expand-lg .navbar-collapse {
+        display: block !important;
+        line-height: 24px !important;
+    }
+    .navbar-expand-lg .safari-menu {
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+}
+
+
+/*=========================================== 15.MEDIA QUERIES END ====================================*/
