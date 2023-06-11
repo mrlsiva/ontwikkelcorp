@@ -1,30 +1,22 @@
-
 @font-face {
     font-family: 'agenor_boldbold';
-    src: url('../fonts/agenor-bold.woff2') format('woff2'),
-         url('../fonts/agenor-bold.woff') format('woff');
+    src: url('../fonts/agenor-bold.woff2') format('woff2'), url('../fonts/agenor-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'agenorregular';
-    src: url('../fonts/agenor-regular.woff2') format('woff2'),
-         url('../fonts/agenor-regular.woff') format('woff');
+    src: url('../fonts/agenor-regular.woff2') format('woff2'), url('../fonts/agenor-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'agenorthin';
-    src: url('../fonts/agenor-thin.woff2') format('woff2'),
-         url('../fonts/agenor-thin.woff') format('woff');
+    src: url('../fonts/agenor-thin.woff2') format('woff2'), url('../fonts/agenor-thin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -33,16 +25,17 @@
 }
 
 body {
-    
     font-family: 'agenor_boldbold' !important;
     background-color: #000 !important;
 }
-.overlay_text, .letter, span.letters {
+
+.overlay_text,
+.letter,
+span.letters {
     font-family: 'agenor_boldbold';
 }
-.sections-wrapper {
-    
-}
+
+.sections-wrapper {}
 
 .container-fluid {
     margin: 0;
@@ -51,12 +44,10 @@ body {
 
 .page-section {
     min-height: 100vh !important;
-    
 }
 
 .sec {
     width: 100%;
-    
 }
 
 .nav-item.active .nav-link {
@@ -136,7 +127,6 @@ span.normalfont {
 }
 
 .overlay_text {
-    
     display: none;
     position: absolute;
     top: 44%;
@@ -184,7 +174,6 @@ span.normalfont {
 }
 
 .sec.client a img {
-    
     max-width: 55% !important;
     margin-bottom: 1rem;
 }
@@ -220,7 +209,6 @@ span.normalfont {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 }
 
 .two {
@@ -237,7 +225,6 @@ span.normalfont {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 }
 
 .four {
@@ -254,15 +241,11 @@ span.normalfont {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 }
 
 .six {
     background-color: #000000;
 }
-
-
-
 
 .carousel-indicators .active {
     width: 10px !important;
@@ -320,9 +303,9 @@ span.normalfont {
     margin-top: 3px;
     border-radius: 50% !important;
     background: #000000;
-} */
+}
 
-.nav-link {
+*/ .nav-link {
     padding: 0 !important;
 }
 
@@ -340,7 +323,6 @@ span.normalfont {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    
     text-align: center;
 }
 
@@ -413,7 +395,6 @@ span.mail {
 .sec.contact p,
 .sec.contact span,
 .sec.contact label {
-    
     font-size: 0.8rem !important;
     font-family: 'agenorregular';
 }
@@ -445,15 +426,9 @@ video {
     margin-bottom: 0.8rem !important;
 }
 
-
-
 .sections-wrapper {
     display: none;
-    
 }
-
-
-
 
 .white-bg {
     min-height: 25vh;
@@ -466,7 +441,6 @@ video {
 }
 
 .white-bg .over_lay {
-    
     background: #00000082;
     z-index: 8;
     position: relative;
@@ -520,7 +494,6 @@ header {
     height: 100vh;
     min-height: 25rem;
     width: 100%;
-    
 }
 
 header {
@@ -542,7 +515,6 @@ header {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    
 }
 
 #load-screen {
@@ -563,9 +535,7 @@ header {
     position: relative;
 }
 
-.contact span {
-    
-}
+.contact span {}
 
 #What-We-Do a {
     cursor: inherit !important;
@@ -576,7 +546,7 @@ header {
 }
 
 .footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     height: 50px;
@@ -615,7 +585,6 @@ ul.copy a:hover {
 
 .footer img {
     max-width: 85% !important;
-    
     margin-top: 10%;
 }
 
@@ -631,7 +600,6 @@ ul.list {
 
 ul.list li {
     display: inline-block;
-   
 }
 
 ul.list li a {
@@ -726,8 +694,6 @@ ul.list li a:hover .circle span:last-child em {
     transition: transform .25s linear;
 }
 
-
-
 .navbar-brand img {
     display: none;
 }
@@ -756,9 +722,6 @@ video#myVideo {
     overflow: hidden;
 }
 
-
-
-
 .slick-slide {
     margin: 0px 20px;
 }
@@ -771,9 +734,6 @@ video#myVideo {
     width: 80%;
     margin: 0 auto !important;
 }
-
-
-
 
 .slick-slider {
     position: relative;
@@ -856,7 +816,6 @@ video#myVideo {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     cursor: default;
-    
 }
 
 .slick-slide img:hover {
@@ -874,15 +833,12 @@ video#myVideo {
 }
 
 .viewmore {
-    
     border: 1px solid #fff;
     border-radius: 20px;
     width: 40% !important;
     margin-left: 30%;
     transition: transform .2s;
-    
     font-size: 10px !important;
-   
     opacity: 0;
     position: fixed !important;
     bottom: 5vh;
@@ -949,7 +905,6 @@ a:hover {
 .slick-next {
     top: 40% !important;
 }
-
 
 .slick-prev:before,
 .slick-next:before {
@@ -1102,17 +1057,10 @@ a:hover {
 }
 
 @media (pointer: coarse) and (hover: none) {
-    .poopup_video {
-        
-    }
-    
+    .poopup_video {}
 }
 
-
-
-
 .responsive__tabs ul.scrollable-tabs {
-    
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
@@ -1158,7 +1106,6 @@ a:hover {
 
 .tab-content {
     display: flex;
-    
 }
 
 .tab-pane,
@@ -1172,7 +1119,6 @@ a:hover {
     max-height: 503px;
     min-height: 503px;
     height: 503px;
-    
     margin-top: 3rem;
 }
 
@@ -1192,9 +1138,6 @@ a:hover {
     border-radius: 0.15rem;
 }
 
-
-
-
 .tab-card {
     border: 1px solid #eee;
 }
@@ -1202,9 +1145,6 @@ a:hover {
 .tab-card-header {
     background: none;
 }
-
-
-
 
 .tab-card-header>.nav-tabs {
     border: none;
@@ -1311,11 +1251,7 @@ a:hover {
 .slick-slider .slick-track,
 .slick-slider .slick-list {
     transition: transform 300ms ease !important;
-    
 }
-
-
-
 
 video#myVideo1 {
     max-width: 100%;
@@ -1325,7 +1261,6 @@ video#myVideo1 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    
     color: white;
 }
 
@@ -1337,21 +1272,20 @@ video#myVideo1 {
     display: block;
     margin: auto;
 }
+
 #web .carousel-control-prev {
-    left: 15px; 
-   
+    left: 15px;
 }
+
 #web .carousel-control-next {
     right: 15px;
-   
 }
+
 .carousel-control-prev {
-    
     left: -30px;
 }
 
 .carousel-control-next {
-    
     right: -30px;
 }
 
@@ -1377,4 +1311,77 @@ video#myVideo1 {
 
 #top:hover {
     opacity: 1;
+}
+
+
+/* ####################  NEW SECTIONS CSS STARTS ####################### */
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-item {
+    display: flex;
+}
+
+.gallery-overlay .icon {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery-overlay .fa-user:hover {
+    color: #eee;
+}
+
+#about {
+    background-color: #0056A1;
+}
+
+.about-heading {
+    font-family: 'agenorthin';
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.text-bold {
+    font-family: 'agenorregular';
+    font-weight: 600;
+}
+
+#about .normalfont {
+    color: #ffffff;
+}
+
+
+/* ####################  NEW SECTIONS CSS ENDS ####################### */
+
+video {
+    /* height: 100%; */
+    width: 100%;
+    /* object-fit: fill; */
+    /* position: absolute; */
 }

@@ -1,0 +1,95 @@
+/*======================================== SECTION-1 START ==========================================*/
+.no-margin {
+	margin-left:0;
+	margin-right:0;
+}
+.gallery-col {
+  position: relative;
+}
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.gallery-col:hover .gallery-overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*========================================= SECTION-1 END ===========================================*/
+
+/*======================================== SECTION-2 START ==========================================*/
+.sec-1-bg {
+	background-color: #f6f6f6;
+}
+.sec-2-bg {
+	background-color: #333333;
+}
+.video-bg {
+	background-color: #000000;
+}
+
+/*========================================= SECTION-2 END ===========================================*/
+
+/*====================================== DETAIL SECTION START ==========================================*/
+/* FORM HEADER */
+.detail-header-bgimg {
+	background-color: #333333;
+    background-image: url("../../images/1920x1080x1.jpg");
+}
+.detail-header-bgimage-property {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detail-header-padding {
+	padding-top: 320px;
+	padding-bottom: 320px;
+}
+.theme-bg {
+	background-color: #546E7A;
+}
+.cta-padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.btn-top {
+	margin-top: 30px;
+}
+.buttons {
+    background-color: #546E7A;
+    color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	line-height: 24px;
+	padding: 15px 20px;
+}
+.buttons:hover {
+	background-color: #ffffff;
+    color: #546E7A;
+}
+/*======================================= DETAIL SECTION END ===========================================*/
